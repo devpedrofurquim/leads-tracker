@@ -22,7 +22,7 @@ h1 {
   display: inline-block;
   vertical-align: middle;
   margin-left: 10px;
-  font-size: 30px;
+  font-size: 16px;
 }
 
 h1 {
@@ -36,20 +36,19 @@ h1 {
 }
 
 #version {
-  font-size: 15px;
+  font-size: 10px;
 }
 
 #author {
   color: white;
   text-align: center;
   margin: 0;
-  font-size: 15px;
+  font-size: 12px;
   padding: 0;
 }
 
 #author:hover {
   cursor: pointer;
-  font-weight: bold;
 }
 
 input {
@@ -62,18 +61,20 @@ input {
   border-radius: 3px;
   box-sizing: border-box;
   color: black;
-  font-size: 15px;
+  font-size: 12px;
+  transition: 0.5s ease-in-out;
 }
 
 input:focus {
   outline: none;
+  width: 100%;
 }
 
 button {
   cursor: pointer;
-  padding: 10px 20px;
+  padding: 10px 05px;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 12px;
   border: none;
   border-radius: 5px;
   background-color: #3E3F40;
@@ -105,14 +106,13 @@ a:hover {
   background-color: #505051;
   border-radius: 5px;
   padding: 10px;
-  font-size: 22px;
 }
 
 li a {
   text-decoration: none;
   color: white;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 #remove-btn {
@@ -120,10 +120,10 @@ li a {
   background-color: #878788;
   border: none;
   color: white;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 10px 05px;
 }
 
 #remove-btn:hover {
